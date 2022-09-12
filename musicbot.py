@@ -665,7 +665,7 @@ class Music(commands.Cog):
 		await ctx.voice_state.stop()
 		del self.voice_states[ctx.guild.id]
 
-bot = commands.Bot('', help_command = None, description='뮤직처제')
+bot = commands.Bot('', help_command = None, description='')
 bot.add_cog(Music(bot))
 
 @bot.event
